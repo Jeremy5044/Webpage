@@ -1,0 +1,313 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+
+
+	font-size: 14px;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.simple{
+	width: 30px;
+	height: 40px;
+
+}
+img{
+	//height: 200px;
+	width: 80%;
+	border:2px solid black;
+}
+
+
+body {
+	width: 1000px;
+	height: 1000px;
+	margin-left:220px;
+	background:lavenderblush;
+}
+.image-banner {
+	height:  340px;
+	width: 115%;
+	margin-bottom:40px; 
+	overflow:hidden;
+	border
+
+}
+
+.colorbox{
+	width: 250px;
+	height: 145px;
+	bottom-border:black;
+
+}
+
+.bgbox {
+	display: inline-block;
+	vertical-align:top;
+	margin-left: 40px;
+}
+
+#greenbox{
+	background: #519251;
+
+	border-width: 0px;
+		margin-right:0px;
+		border-radius: 2px;
+		width: 213px;
+	}
+
+.text{
+	width: 10px
+}
+
+
+#bluebox{
+	background: #2c4985;
+	bottom-border:43px
+	border-radius:3px;
+	width: 213px;
+}
+
+#blackbox {
+	background: #111111;
+	border-style: solid;
+	margin-left: 0px;
+	border-radius: 3px;
+	width: 213px;
+
+	
+}
+
+.features{
+	width: 100%;
+	height:40px
+	border: solid black;
+}
+
+li {
+	border: 1px solid darkgrey;
+	background:#f7f7f7;
+	list-style: none;
+	padding:10px;
+	text-align: center;
+	color:black;
+	border-style: dotted;
+
+}
+.button{
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:10px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.button:hover {
+	background-color:transparent;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+
+.MainBox1{
+clear;both;
+	float: left; 
+margin-left:5px;
+margin-top:55px;
+}
+.jer{
+	width: 80%;
+	margin:0px auto;
+}
+div.MainBox1{
+width: 385px;
+margin-left:15px;
+}
+.psize{
+	width:30px;
+}
+div.MainBox2{
+	float:right;
+	width: 340px;
+	margin-top:55px;
+	margin-right: 15px;
+}
+.spr{
+	width:80px
+	margin:0px auto;
+}
+.head{
+	margin-top:2px;
+	margin-bottom:35px;
+	letter-spacing:2px;
+}
+.center{
+	text-align:#519251;
+	margin:0px;
+	color: #519251;
+	font-size:medium;
+	letter-spacing: 9px
+
+}
+.five{
+	color: white;
+	font-size:11px;
+	text-align:center;
+	margin: 0px;
+letter-spacing: 9px;
+}
+
+.per{
+	color:#73a773;
+	font-size:medium;
+	text-align:center;
+	font-size:20px;
+	margin:0px;
+}
+.num{
+	color: white;
+	font-size:55px;
+	text-align:center;
+	margin: 10px
+
+}
+.center1{
+	text-align:#519251;
+	margin:0px;
+	color: #111111;
+	font-size:medium;
+	letter-spacing: 9px
+
+}
+.five1{
+	color: white;
+	font-size:11px;
+	text-align:center;
+	margin: 0px;
+letter-spacing: 9px;
+}
+
+.per1{
+	color:#2d2d2d;
+	font-size:medium;
+	text-align:center;
+	font-size:20px;
+	margin:0px;
+}
+.num1{
+	color: white;
+	font-size:55px;
+	text-align:center;
+	margin: 10px
+
+}
+.center2{
+	text-align:#519251;
+	margin:0px;
+	color: #2c4985;
+	font-size:medium;
+	letter-spacing: 9px
+
+}
+.five2{
+	color: white;
+	font-size:11px;
+	text-align:center;
+	margin: 0px;
+letter-spacing: 5px;
+}
+
+.per2{
+	color:#486195;
+	font-size:medium;
+	text-align:center;
+	font-size:20px;
+	margin:0px;
+}
+.num2{
+	color: white;
+	font-size:55px;
+	text-align:center;
+	margin: 10px
+
+}
+ .header{
+	clear: both;
+    margin-top: 41px;
+    border: solid black;
+    background: #111111;
+    margin-right: -30px;
+    border: 0px;
+    margin-left: 10px;
+}
+
+.down{
+	margin-top:20px;
+	color: white;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 11px;
+}
+.left{
+	line-height: 19px;
+}
+.p1{
+	line-height: 20px;
+}
+.p2{
+	line-height:20px;
+}
+.p3{
+	line-height:20px;
+}
+.zz{
+	position:relative;
+	width: 100%;
+	font-size: 12px;
+
+}
+h2 span{
+	position:absolute;
+	top:140px;
+	left:340px;
+	width: 100%;
+	font-size:40px;
+	color: white
+
+}
+h3 span{
+	position:absolute;
+	top:185px;
+	left:345px;
+	width: 100%;
+	font-size:30px;
+	color: white
+
+}
+.bbbox{
+	margin-left: 75px;
+}
+.bv{
+	background:  white;
+}
