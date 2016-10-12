@@ -31,8 +31,8 @@ img{
 body {
 	width: 1000px;
 	height: 1000px;
-	margin-left:220px;
-	background:lavenderblush;
+	margin-left:5px;
+	
 }
 .image-banner {
 	height:  340px;
@@ -102,28 +102,9 @@ li {
 	color:black;
 	border-style: dotted;
 
-}
-.button{
-	background-color:transparent;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
-	border:1px solid #566963;
-	display:inline-block;
-	cursor:pointer;
-	color:black;
-	font-family:Arial;
-	font-size:10px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2b665e;
-}
-.button:hover {
-	background-color:transparent;
-}
-.button:active {
-	position:relative;
-	top:1px;
+
+	
+
 }
 ul{
 	margin:0px;
@@ -253,12 +234,12 @@ letter-spacing: 5px;
 
 }
  .header{
-	clear: both;
+	    clear: both;
     margin-top: 41px;
     border: solid black;
     background: #111111;
-    margin-right: -30px;
-    border: 0px;
+    margin-right: 8px;
+    order: 0px;
     margin-left: 10px;
 }
 
@@ -311,3 +292,20 @@ h3 span{
 .bv{
 	background:  white;
 }
+
+.button{
+	background-color:#f7f7f7;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1d291b;
+}
+
