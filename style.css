@@ -6,15 +6,6 @@
 	font-size: 14px;
 }
 
-input[type=text] {
-    width: 130px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-    width: 100%;
-}
 
 .simple{
 	width: 30px;
@@ -160,7 +151,7 @@ letter-spacing: 9px;
 }
 
 .per{
-	color:#73a773;
+	color:#ffffff;
 	font-size:medium;
 	text-align:center;
 	font-size:20px;
@@ -190,7 +181,7 @@ letter-spacing: 9px;
 }
 
 .per1{
-	color:#2d2d2d;
+	color:#ffffff;
 	font-size:medium;
 	text-align:center;
 	font-size:20px;
@@ -220,7 +211,7 @@ letter-spacing: 5px;
 }
 
 .per2{
-	color:#486195;
+	color:#ffffff;
 	font-size:medium;
 	text-align:center;
 	font-size:20px;
@@ -238,9 +229,9 @@ letter-spacing: 5px;
     margin-top: 41px;
     border: solid black;
     background: #111111;
-    margin-right: 8px;
+    margin-right: -33px;
     order: 0px;
-    margin-left: 10px;
+    margin-left: -100px;
 }
 
 .down{
@@ -290,22 +281,21 @@ h3 span{
 	margin-left: 75px;
 }
 .bv{
+	
 	background:  white;
+	border-style: solid;
 }
 
 .button{
-	background-color:#f7f7f7;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
-	border:1px solid #000000;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #1d291b;
-}
+	margin-right:40px;   
+    margin-top: 10px;
+    height: 37px;
+    border-radius:30px;
+
+    border-style: solid;
+    border-width:1px;
+padding: 10px;
+border-color: grey;
+
+	}
 
